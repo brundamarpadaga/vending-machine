@@ -1,0 +1,88 @@
+/* Vending machine container */
+.vending-machine-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  /* Input section styles */
+  .input-section {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+  }
+  
+  .open-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  /* Section details styles */
+  .section-details {
+    flex: 2;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+  }
+  
+  .section-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Product item styles */
+  .product-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+  }
+  
+  .product-price {
+    font-weight: bold;
+  }
+  
+  .add-to-cart-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  /* Cart section styles */
+  .cart-section {
+    flex: 2;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+  }
+  
+  .cart-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Cart item styles */
+  .cart-item {
+    margin: 5px 0;
+  }
+  
+  .cart-price {
+    font-weight: bold;
+  }
+  
+  /* Total cost styles */
+  .total-cost {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
